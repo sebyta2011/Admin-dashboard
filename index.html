@@ -78,20 +78,29 @@
     <div class="main-content">
             <div class="header">
                 <div class="top-header">
-                    <div class="searchbar"></div>
+                    <form action="" id="searchbar-container" method="get">
+                        <span class="material-symbols-outlined">
+                            search
+                            </span>
+                        <input type="text" name="searchbar" class="searchbar">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
                     <div class="account">
-                        <button class="notifications"></button>
-                        <div class="profile-img"></div>
+                        <span class="material-symbols-outlined">
+                            notifications_active
+                            </span>
+                        <img class="profile-image" src="css/ricky-churro.png">
                         <div class="name">Profile name</div>
                     </div>
                 </div>
 
                 <div class="bottom-header">
+                    <img class="profile-image" src="css/ricky-churro.png">
                     <div class="hi">Hi there <br><span class="big-name">Profile name(@profile)</span></div>
                     <div class="post-buttons">
-                        <div class="new">New</div>
-                        <div class="upload">Upload</div>
-                        <div class="share">Share</div>
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
                     </div>
                 </div>
             </div>
